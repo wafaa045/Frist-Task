@@ -1,0 +1,127 @@
+
+
+header{ display: flex; 
+       justify-content: space-between; 
+      background-color: rgb(71, 70, 70); 
+    padding:20px 40px; 
+}
+
+    .loge{ display: flex; justify-content: space-between;} 
+.loge i{ font-size:60px; color:rgba(238, 116, 99, 0.89); 
+    margin-right: 5px; 
+     padding: 5px 8px;}
+    h1{ color: #fff; 
+text-transform: capitalize;}
+ 
+nav{display: flex; justify-content: space-around;
+
+color:#fff;  margin-right:50px; font-weight: 300px;
+}
+
+
+nav ul{list-style: none;  
+  
+display: flex;  justify-content: space-between;
+margin-right: 30px;
+margin-top: 30px;}
+
+
+nav a{ text-decoration: none;
+     text-transform: uppercase;
+     font-weight: bold; font-size: large;
+color:#fff;
+ margin-left:40px;  margin-right: 8px; 
+     padding: 20px;
+    
+    }
+
+.ahome{ background-color:rgba(238, 116, 99, 0.89);  
+ 
+    margin-right: 8px;  height: 100%;
+    }
+
+nav a:hover{ background-color:rgba(238, 116, 99, 0.89);  
+padding: 20px;
+height: 100%;
+}
+
+
+
+
+
+
+
+.contener{color: #fff;
+    background-color: rgba(245, 91, 71, 0.89); 
+    display: flex; justify-content: center;
+    padding: 40px 70px;
+    height:400px; 
+}
+.contener section{ display: flex; 
+flex-direction: column;
+height: 360px; padding: 0 70px;
+} 
+.contener h2{ color: #fff; font-weight:300px; font-size:40px;}
+.contener span{ text-transform: capitalize;}
+.contener section p{ font-size: 20px;}
+/*المارجن توب علشان يسنتر الصوره فى الفلكس*/
+.contener img{ width: 400px; height: 360px; margin-top:20px;}
+
+.contener button{padding:20px;
+  width: 200px;
+    color: #fff; font-weight: bold;
+    background-color: rgb(32, 31, 31); 
+    text-transform: capitalize; font-size: 17px; border: black; border-radius:3px;
+}
+
+
+
+
+
+
+
+
+
+.grid_section{background-color:  rgb(231, 235, 235);
+   padding: 20px;
+display: grid;
+grid-template-columns:auto auto;
+grid-template-rows: auto auto; 
+gap: 40px 40px;
+justify-content: center;}
+
+.grid_section section{
+    background-color:#fff;
+   border-radius:6px; padding:10px ;
+   display: flex;
+}
+.grid_section i{ font-size: 40px; color: rgb(88, 88, 88); margin:6px;}
+
+.grid_section h3{ text-transform: capitalize;}
+
+.item1 div{ margin-left: 8px;}
+
+.grid_section section:hover{ background-color: rgba(245, 91, 71, 0.89);}
+
+
+
+
+
+
+
+
+.div-lin{ background-color:  rgb(32, 31, 31); height:100px;  
+     display: flex; justify-content: center;}
+
+
+.div-lin a{ background-color:#fff;
+   text-align: center; width: 60px; height:60px;
+   color: black;
+font-size:40px;   margin-right: 30px; margin-top: 20px;
+border-radius: 30px; text-align:center ;  
+}
+.div-lin div{ text-align: center; padding: 8px; 
+    
+    } 
+
+ .div-lin a:hover{ background-color: rgba(245, 91, 71, 0.89);}
